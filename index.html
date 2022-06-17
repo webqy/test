@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>DEUS</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220617054101">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__logo">
+						<a href="#" class="header__logo-item">
+							<picture>
+								<source srcset="img/logo.png" type="image/png" media="(min-width:767.98px)">
+								<source srcset="img/logo-small.png" type="image/png" media="(max-width:767.98px)">
+								<img src="img/logo.png" alt="logo">
+							</picture>
+						</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link _active">Каталог</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">Гарантия</a></li>
+								<li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
+							</ul>
+							<div class="menu__body-item--1"></div>
+							<div class="menu__body-item--2"></div>
+						</nav>
+					</div>
+					<a href="tel:+375297643351" class="header__phone">+375 (29) 764-33-51</a>
+					<div class="header__cart cart-header">
+						<a href="#" class="cart-header__icon">
+							<div class="cart-header__icon-item _icon-basket"></div><span>1</span>
+						</a>
+						<div class="cart-header__body">
+							<ul class="cart-header__list cart-list"></ul>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="main-block">
+				<div class="main-block__container">
+					<div class="main-block__body">
+						<div class="main-block__title">Быстрая сборка компьютеров за 24 часа</div>
+						<div class="main-block__text text-main-block">В кратчайшие сроки соберём компьютер вашей мечты для работы и игр!</div>
+						<div class="main-block__button button">
+							<a href="#" class="button__item"><span>Собрать компьютер</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="main-block__image"><picture><source srcset="img/main-block/bg.webp" type="image/webp"><img src="img/main-block/bg.jpg" alt="background"></picture></div>
+			</div>
+			<div class="lineup">
+				<div class="lineup__container">
+					<div class="lineup__body">
+						<div class="lineup__top">
+							<div class="lineup__title title"><span>Модельный ряд</span>
+								<div class="title__text after-none"><span>Модельный ряд</span></div>
+							</div>
+							<div class="lineup__navigation navigation">
+								<div class="navigation__button navigation__button--prev _icon-arrow-slider lineup-slider-prev"></div>
+								<div class="navigation__button navigation__button--prev-next _icon-arrow-slider lineup-slider-next"></div>
+							</div>
+						</div>
+						<div class="lineup__slider swiper">
+							<div class="lineup__wrapper swiper-wrapper">
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/01.webp" type="image/webp"><img src="img/lineup/01.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Casual</div>
+									<div class="lineup-column__text">Минимальная стоимость, максимум мощи</div>
+									<div class="lineup-column__price">От <span>1147 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/02.webp" type="image/webp"><img src="img/lineup/02.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Optima</div>
+									<div class="lineup-column__text">Оптимальные компьютеры без переплаты</div>
+									<div class="lineup-column__price">От <span>1361 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/03.webp" type="image/webp"><img src="img/lineup/03.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Pro</div>
+									<div class="lineup-column__text">Мощные игровые компьютеры Pro серии</div>
+									<div class="lineup-column__price">От <span>1756 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/04.webp" type="image/webp"><img src="img/lineup/04.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Master</div>
+									<div class="lineup-column__text">Компьютеры для игр с запасом производительности</div>
+									<div class="lineup-column__price">От <span>1997 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/05.webp" type="image/webp"><img src="img/lineup/05.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Ace</div>
+									<div class="lineup-column__text">Экстремальные компьютеры с ARGB LED подсветкой.</div>
+									<div class="lineup-column__price">От <span>2345 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/06.webp" type="image/webp"><img src="img/lineup/06.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Champion</div>
+									<div class="lineup-column__text">Наимощнейшие компьютеры без компромисов.</div>
+									<div class="lineup-column__price">От <span>3699 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/07.webp" type="image/webp"><img src="img/lineup/07.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Mini</div>
+									<div class="lineup-column__text">Минимальная стоимость в компактном корпусе.</div>
+									<div class="lineup-column__price">От <span>1493 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/08.webp" type="image/webp"><img src="img/lineup/08.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Mini Pro</div>
+									<div class="lineup-column__text">Оптимальное и компактное решение с хорошей скоростью.</div>
+									<div class="lineup-column__price">От <span>1997 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/09.webp" type="image/webp"><img src="img/lineup/09.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Work Office</div>
+									<div class="lineup-column__text">Компьютеры для комфортной и эффективной работы в офисе.</div>
+									<div class="lineup-column__price">От <span>250 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/10.webp" type="image/webp"><img src="img/lineup/10.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Work</div>
+									<div class="lineup-column__text">Компьютеры ориентированные на работу с граффикой.</div>
+									<div class="lineup-column__price">От <span>1297 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/11.webp" type="image/webp"><img src="img/lineup/11.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Work Plus</div>
+									<div class="lineup-column__text">Компьютеры для игр с запасом производительности.</div>
+									<div class="lineup-column__price">От <span>2430 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+								<a href="#" class="lineup__slide swiper-slide lineup-column">
+									<div class="lineup-column__image"><picture><source srcset="img/lineup/12.webp" type="image/webp"><img src="img/lineup/12.png" alt="image"></picture></div>
+									<div class="lineup-column__title">Work Pro</div>
+									<div class="lineup-column__text">Компьютеры ориентированные на работу с 3D графикой.</div>
+									<div class="lineup-column__price">От <span>7002 $</span></div>
+									<div class="lineup-column__more">
+										<div class="lineup-column__more-text">подробнее</div>
+										<div class="lineup-column__more-icon _icon-arrow"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="periphery">
+				<div class="periphery__container">
+					<div class="periphery__body">
+						<div class="periphery__title title"><span>Периферия</span>
+							<div class="title__text"><span>Периферия</span></div>
+						</div>
+						<div class="periphery__text text-periphery">
+							<div class="text-periphery__title text-main-block">Удобная и качественная периферия, это то, что позволяет оптимизировать и вывести на новый уровень процесс работы за компьютером.</div>
+							<div class="text-periphery__subtitle">Мы не продаём периферию отдельно. А предоставляем возможность приобрести её в комплекте с ПК.</div>
+						</div>
+						<div class="periphery__slider swiper">
+							<div class="periphery__wrapper swiper-wrapper">
+								<a href="#" class="periphery__slide swiper-slide periphery-column">
+									<div class="periphery-column__image"><picture><source srcset="img/periphery/01.webp" type="image/webp"><img src="img/periphery/01.png" alt="image"></picture></div>
+									<div class="periphery-column__label">Мониторы</div>
+								</a>
+								<a href="#" class="periphery__slide swiper-slide periphery-column">
+									<div class="periphery-column__image"><picture><source srcset="img/periphery/02.webp" type="image/webp"><img src="img/periphery/02.png" alt="image"></picture></div>
+									<div class="periphery-column__label">Клавиатуры</div>
+								</a>
+								<a href="#" class="periphery__slide swiper-slide periphery-column">
+									<div class="periphery-column__image"><picture><source srcset="img/periphery/03.webp" type="image/webp"><img src="img/periphery/03.png" alt="image"></picture></div>
+									<div class="periphery-column__label">Мыши</div>
+								</a>
+								<a href="#" class="periphery__slide swiper-slide periphery-column">
+									<div class="periphery-column__image"><picture><source srcset="img/periphery/04.webp" type="image/webp"><img src="img/periphery/04.png" alt="image"></picture></div>
+									<div class="periphery-column__label">Колонки</div>
+								</a>
+								<a href="#" class="periphery__slide swiper-slide periphery-column">
+									<div class="periphery-column__image"><picture><source srcset="img/periphery/05.webp" type="image/webp"><img src="img/periphery/05.png" alt="image"></picture></div>
+									<div class="periphery-column__label">Наушники</div>
+								</a>
+								<a href="#" class="periphery__slide swiper-slide periphery-column">
+									<div class="periphery-column__image"><picture><source srcset="img/periphery/06.webp" type="image/webp"><img src="img/periphery/06.png" alt="image"></picture></div>
+									<div class="periphery-column__label">Кресла</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="gallery">
+				<div class="gallery__container">
+					<div class="gallery__body">
+						<div class="gallery__top">
+							<div class="gallery__title title"><span>Наши проекты</span>
+								<div class="title__text after-none"><span>Наши проекты</span></div>
+							</div>
+							<div class="gallery__navigation navigation">
+								<div class="navigation__button navigation__button--prev _icon-arrow-slider gallery-slider-prev"></div>
+								<div class="navigation__button navigation__button--prev-next _icon-arrow-slider gallery-slider-next"></div>
+							</div>
+						</div>
+						<div class="gallery__slider swiper">
+							<div data-gallery class="gallery__wrapper swiper-wrapper">
+								<div class="gallery__slide swiper-slide">
+									<a data-src="img/gallery/01-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/01.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/01-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/01.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/02-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/02.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/02-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/02.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/03-full.jpg" class="gallery__image gallery__image--big">
+										<picture>
+											<source srcset="img/gallery/03.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/03-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/03.jpg" alt="image">
+										</picture>
+									</a>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<a data-src="img/gallery/04-full.jpg" class="gallery__image gallery__image--big">
+										<picture>
+											<source srcset="img/gallery/04.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/04-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/04.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/05-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/05.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/05-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/05.jpg" alt="image">
+										</picture>
+									</a>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<a data-src="img/gallery/06-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/06.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/06-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/06.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/07-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/07.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/07-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/07.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/08-full.jpg" class="gallery__image gallery__image--big">
+										<picture>
+											<source srcset="img/gallery/08.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/08-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/08.jpg" alt="image">
+										</picture>
+									</a>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<a data-src="img/gallery/09-full.jpg" class="gallery__image gallery__image--big">
+										<picture>
+											<source srcset="img/gallery/09.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/09-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/09.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/10-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/10.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/10-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/10.jpg" alt="image">
+										</picture>
+									</a>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<a data-src="img/gallery/11-full.jpg" class="gallery__image gallery__image--small">
+										<picture>
+											<source srcset="img/gallery/11.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/11-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/11.jpg" alt="image">
+										</picture>
+									</a>
+									<a data-src="img/gallery/12-full.jpg" class="gallery__image gallery__image--big">
+										<picture>
+											<source srcset="img/gallery/12.jpg" type="image/jpg" media="(min-width:767.98px)">
+											<source srcset="img/gallery/12-s.jpg" type="image/jpg" media="(max-width:767.98px)">
+											<img src="img/gallery/12.jpg" alt="image">
+										</picture>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about-us">
+				<div class="about-us__container">
+					<div class="about-us__body">
+						<div class="about-us__title title"><span>Почему именно «DEUS»</span>
+							<div class="title__text"><span>Почему именно «DEUS»</span></div>
+						</div>
+						<div class="about-us__columns">
+							<div class="about-us__column">
+								<div class="about-us__number">01</div>
+								<div class="about-us__text">Более 11 лет на рынке сбора и продажи компьютеров</div>
+							</div>
+							<div class="about-us__column">
+								<div class="about-us__number">02</div>
+								<div class="about-us__text">Проверка комплектующих на наличие брака</div>
+							</div>
+							<div class="about-us__column">
+								<div class="about-us__number">03</div>
+								<div class="about-us__text">Гарантия и техническая поддержка на все приобретённые товары</div>
+							</div>
+							<div class="about-us__column">
+								<div class="about-us__number">04</div>
+								<div class="about-us__text">Производительные компьютеры без наценок и переплат</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="live">
+				<div class="live__container">
+					<div class="live__body">
+						<div class="live__title title"><span>DEUS Live</span>
+							<div class="title__text"><span>DEUS Live</span></div>
+						</div>
+						<div class="live__swiper live-swiper-desktop">
+							<div class="live-swiper-desktop__slider swiper">
+								<div class="live-swiper-desktop__wrapper swiper-wrapper">
+									<div class="live-swiper-desktop__slide swiper-slide">
+										<div class="live-swiper-desktop__column">
+											<div class="live-swiper-desktop__video">
+												<div class="live-swiper-desktop__video-item live-swiper-desktop__video-item--big">
+													<picture>
+														<source srcset="httpsimg.youtube.com/vi_webp/x9Lpq8gYpEo/maxresdefault.webp" type="image/webp">
+														<img src="httpsimg.youtube.com/vi/x9Lpq8gYpEo/maxresdefault.jpg" alt="image">
+													</picture>
+													<button class="live-swiper-desktop__button" data-video-id="x9Lpq8gYpEo">
+														<div class="live-swiper-desktop__button-item"></div>
+													</button>
+												</div>
+											</div>
+											<div class="live-swiper-desktop__label">Видеокарта NVIDIA Quadro PNY RTX A4000</div>
+										</div>
+										<div class="live-swiper-desktop__column">
+											<div class="live-swiper-desktop__item">
+												<div class="live-swiper-desktop__video">
+													<div class="live-swiper-desktop__video-item live-swiper-desktop__video-item--small">
+														<picture>
+															<source srcset="httpsimg.youtube.com/vi_webp/CyLUBCGM61g/maxresdefault.webp" type="image/webp">
+															<img src="httpsimg.youtube.com/vi/CyLUBCGM61g/maxresdefault.jpg" alt="image">
+														</picture>
+														<button class="live-swiper-desktop__button" data-video-id="CyLUBCGM61g">
+															<div class="live-swiper-desktop__button-item"></div>
+														</button>
+													</div>
+												</div>
+												<div class="live-swiper-desktop__label">Сборка НОСТАЛЬЖИ ПК на Windows 98. Прокачка Retro PC — компьютера из прошлого!</div>
+											</div>
+											<div class="live-swiper-desktop__item">
+												<div class="live-swiper-desktop__video">
+													<div class="live-swiper-desktop__video-item live-swiper-desktop__video-item--small">
+														<picture>
+															<source srcset="httpsimg.youtube.com/vi_webp/IQGAn0VSiSI/maxresdefault.webp" type="image/webp">
+															<img src="httpsimg.youtube.com/vi/IQGAn0VSiSI/maxresdefault.jpg" alt="image">
+														</picture>
+														<button class="live-swiper-desktop__button" data-video-id="IQGAn0VSiSI">
+															<div class="live-swiper-desktop__button-item"></div>
+														</button>
+													</div>
+												</div>
+												<div class="live-swiper-desktop__label">Белая Сборка ПК 2021 для монтажа (Ryzen 9 5950X + RTX 3070) в корпусе ASUS ROG STRIX HELIOS GX601</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="live-swiper-desktop__navigation navigation">
+								<div class="navigation__button navigation__button--prev _icon-arrow-slider live-slider-prev"></div>
+								<div class="navigation__button navigation__button--prev-next _icon-arrow-slider live-slider-next"></div>
+							</div>
+						</div>
+						<div class="live__swiper live-swiper-mobile">
+							<div class="live-swiper-mobile__slider swiper">
+								<div class="live-swiper-mobile__wrapper swiper-wrapper">
+									<div class="live-swiper-mobile__slide swiper-slide">
+										<div class="live-swiper-mobile__video">
+											<div class="live-swiper-mobile__video-item"></div>
+										</div>
+										<div class="live-swiper-mobile__label"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__logo">
+						<a href="#" class="footer__logo-item">
+							<picture>
+								<source srcset="img/logo.png" type="image/png" media="(min-width:767.98px)">
+								<source srcset="img/logo-small.png" type="image/png" media="(max-width:767.98px)">
+								<img src="img/logo.png" alt="logo">
+							</picture>
+						</a>
+					</div>
+					<div class="footer__navigation navigation-footer">
+						<div class="navigation-footer__title footer-title">Навигация</div>
+						<ul class="navigation-footer__list">
+							<li class="navigation-footer__item"><a href="#" class="navigation-footer__link footer-link">Каталог</a></li>
+							<li class="navigation-footer__item"><a href="#" class="navigation-footer__link footer-link">Доставка</a></li>
+							<li class="navigation-footer__item"><a href="#" class="navigation-footer__link footer-link">Оплата</a></li>
+							<li class="navigation-footer__item"><a href="#" class="navigation-footer__link footer-link">Гарантия</a></li>
+							<li class="navigation-footer__item"><a href="#" class="navigation-footer__link footer-link">О нас</a></li>
+						</ul>
+					</div>
+					<div class="footer__contacts contacts-footer">
+						<div class="contacts-footer__title footer-title">Контакты</div>
+						<ul class="contacts-footer__list">
+							<li class="contacts-footer__item"><a href="mailto:info@ggmc.by" class="contacts-footer__link footer-link">info@ggmc.by</a></li>
+							<li class="contacts-footer__item"><a href="tel:+375297643351" class="contacts-footer__link footer-link">+375 (29) 764-33-51</a></li>
+							<li class="contacts-footer__item"><a href="tel:+375447643359" class="contacts-footer__link footer-link">+375 (44) 764-33-59</a></li>
+						</ul>
+					</div>
+					<div class="footer__social social-footer">
+						<div class="social-footer__title footer-title">Социальные сети</div>
+						<ul class="social-footer__list">
+							<li class="social-footer__item"><a href="#" class="social-footer__link social-footer__link--vk _icon-vk"></a></li>
+							<li class="social-footer__item"><a href="#" class="social-footer__link social-footer__link--insta _icon-insta"></a></li>
+							<li class="social-footer__item"><a href="#" class="social-footer__link social-footer__link--youtube _icon-youtube"></a></li>
+						</ul>
+					</div>
+					<div class="footer__copywriting">
+						<div class="footer__copywriting-item">© DEUS.by | 2021</div>
+					</div>
+					<div class="footer__copywriting">
+						<a href="#" class="footer__copywriting-item">Политика конфиденциальности</a>
+					</div>
+					<div class="footer__copywriting footer__copywriting--order">
+						<a href="#" class="footer__copywriting-item">Пользовательское соглашение</a>
+					</div>
+					<div class="footer__copywriting">
+						<div class="footer__copywriting-item">Дизайн — <a href="https://www.behance.net/Andrey_Karpets">Андрей Карпец</a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220617054101"></script>
+</body>
+
+</html>
